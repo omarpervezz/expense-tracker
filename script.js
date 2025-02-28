@@ -240,7 +240,7 @@ class ExpenseTracker {
       (sum, expense) => sum + expense.amount,
       0
     );
-    this.totalExpenseSpan.textContent = `৳${total.toFixed(2)}`;
+    this.totalExpenseSpan.textContent = `$${total.toFixed(2)}`;
   }
 
   saveToLocalStorage() {
